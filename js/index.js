@@ -2,8 +2,6 @@ import { imprimir_todos } from "./cargar-los-todos.js";
 
 imprimir_todos();
 
-
-
 function nueva_tarea (){
     data_todo_list.push(
         {
@@ -12,7 +10,8 @@ function nueva_tarea (){
             estado: true
         }
     );
-    caja_de_todos.innerHTML = "";
+
+    document.querySelector(".todo_list").innerHTML = "";
     imprimir_todos();
 
     document.querySelector(".modal").classList.remove("activar");

@@ -1,5 +1,3 @@
-import { data_todo_list } from "./data.js";
-
 export function  item_component(numero_tarea){
 
     let  item= `

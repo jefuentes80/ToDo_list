@@ -22,5 +22,3 @@ let data_todo_list = [
     },
 
 ];
-
-export {data_todo_list};

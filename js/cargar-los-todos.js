@@ -1,4 +1,3 @@
-import { data_todo_list } from "./data.js";
 import { item_component } from "./item-component.js";
 
 function imprimir_todos (){
